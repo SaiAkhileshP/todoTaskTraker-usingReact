@@ -1,0 +1,18 @@
+.Smallscreen_msg{
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+  .Smallscreen_msg{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px;
+  }
+  h3{
+    padding: 30px;
+    border: 2px solid #dddd;
+    border-radius: 5px;
+  }
+}
